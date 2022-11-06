@@ -1,0 +1,84 @@
+{
+    "webringSites": [
+        {
+            "siteOwner": "Graycot",
+            "siteName": "Gray Cafe",
+            "siteURL": "https://graystea.neocities.org/",
+            "siteTags": "Relax, Chat, Explore",
+            "siteShortDescription": "Sit back, relax, and admire the beauty of the internet",
+            "siteLongDescription": "Hi! I'm Graycot, and this is my little corner of the internet. Gray's tea was the first website I ever built, and it inspired me to pursue web developement as a passion, and now a career. I love creating beautiful yet function user interfaces, and its my goal to teach others how to build a digital world of their own creation. Come chat at the cafe and explore the wonders of the web."
+        },
+        {
+            "siteOwner": "Windigo",
+            "siteName": "Windigo's infernum",
+            "siteURL": "https://windigo.neocities.org/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "Vaea",
+            "siteName": "Vaea-V in space",
+            "siteURL": "https://vaea-v.neocities.org/home/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "tsvety",
+            "siteName": "idi.moe",
+            "siteURL": "https://www.idi.moe/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "Seirdy",
+            "siteName": "Seirdy's Home",
+            "siteURL": "https://seirdy.one/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "Forever",
+            "siteName": "Forever's home",
+            "siteURL": "https://aroace.space/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "joe jennet",
+            "siteName": "bulltown.2022",
+            "siteURL": "https://bulltown.2022.jenett.org/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "Tuan",
+            "siteName": "<(^.^)> tsuki",
+            "siteURL": "https://tsk.bearblog.dev/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "Nicki Faulk",
+            "siteName": "The WebRings Fanlisting",
+            "siteURL": "https://fanlistings.nickifaulk.com/webrings/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        },
+        {
+            "siteOwner": "John Lins",
+            "siteName": "Forever's home",
+            "siteURL": "https://www.johnlins.com/",
+            "siteTags": "1, 2, 3",
+            "siteShortDescription": "123",
+            "siteLongDescription": "123456789"
+        }
+    ]
+}
