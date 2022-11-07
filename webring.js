@@ -20,8 +20,6 @@ fetch("./sites.json")
 
 function webring(data) {
   // get webring data webring.json
-  var webringName = data.webringInfo[0].webringName;
-  var webringURL = data.webringInfo[0].webringURL;
   var webringHome = data.webringInfo[0].webringHome;
   var webringMemberList = data.webringInfo[0].webringMemberList;
 }
@@ -53,35 +51,27 @@ function sites(data) {
   });
   let value = params.action;
 
-  // If the referrer site is not part of the webring, set the previous and next values to random.
-
   // Execute redirect upon Previous, List, Home, Next, Random, or other actions
   if (value == 'prev' && referrerIndex !== undefined) {
       //find previous site in member list
       let previousIndex = (referrerIndex-1 < 0) ? data.webringSites.length-1 : referrerIndex-1;
       let previousSiteURL = data.webringSites[previousIndex].siteURL;
       window.location.href = previousSiteURL;
-
   } else if (value == 'next' && referrerIndex !== undefined) {
       //find next site in member list
       let nextIndex = (referrerIndex+1 >= data.webringSites.length) ? 0 : referrerIndex+1;
       let nextSiteURL = data.webringSites[nextIndex].siteURL;
       window.location.href = nextSiteURL;
-
   } else if (value == 'list') {
       window.location.href = webringMemberList;
-
   } else if (value == 'home') {
       window.location.href = webringHome;
-
   } else if (value == 'test') {
       console.log('test');
-
   } else {
       //In-case of value == undefined or referrerIndex is undefined, find random site in member list
       let randomIndex = Math.floor(Math.random() * (data.webringSites.length));
       let randomSiteURL = data.webringSites[randomIndex].siteURL;
-      let randomSiteName = data.webringSites[randomIndex].siteName;
       window.location.href = randomSiteURL;
   }
 };
