@@ -68,7 +68,7 @@ function sites(data) {
       } else if (value == 'home') {
         window.location.href = webringHome;
       } else {
-        console.log("Error!")
+        console.log("Error!");
       }
     }
   } else if (value == 'test') {
