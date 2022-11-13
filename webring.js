@@ -65,8 +65,10 @@ function sites(data) {
 
       if (value == 'list') {
         window.location.href = webringMemberList;
-      } else {
+      } else if (value == 'home') {
         window.location.href = webringHome;
+      } else {
+        console.log("Error!")
       }
     }
   } else if (value == 'test') {
