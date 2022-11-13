@@ -4,25 +4,12 @@ Oring is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (GPLv3+) as published by
 the Free Software Foundation. (http://www.gnu.org/licenses/)*/
 
-// get webring data
-fetch("./webring.json")
-.then(response => {
-   return response.json();
-})
-.then(data => webring(data));
-
 // get member sites list
 fetch("./sites.json")
 .then(response => {
    return response.json();
 })
 .then(data => sites(data));
-
-function webring(data) {
-  // get webring data webring.json
-  var webringHome = data.webringInfo[0].webringHome;
-  var webringMemberList = data.webringInfo[0].webringMemberList;
-}
 
 function sites(data) {
   // get sub.domain.TLD of referrer member site.
@@ -49,7 +36,7 @@ function sites(data) {
   const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
   });
-  let value = params.action;
+  var value = params.action;
 
   // Execute redirect upon Previous, List, Home, Next, Random, or other actions
   if (value == 'prev' && referrerIndex !== undefined) {
@@ -62,10 +49,26 @@ function sites(data) {
       let nextIndex = (referrerIndex+1 >= data.webringSites.length) ? 0 : referrerIndex+1;
       let nextSiteURL = data.webringSites[nextIndex].siteURL;
       window.location.href = nextSiteURL;
-  } else if (value == 'list') {
-      window.location.href = webringMemberList;
-  } else if (value == 'home') {
-      window.location.href = webringHome;
+  } else if (value == 'list' || 'home') {
+    // get webring data
+    fetch("./webring.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => webring(data));
+
+    // execute using webring data
+    function webring(data) {
+      // get webring data from webring.json
+      var webringHome = data.webringInfo[0].webringHome;
+      var webringMemberList = data.webringInfo[0].webringMemberList;
+
+      if (value == 'list') {
+        window.location.href = webringMemberList;
+      } else {
+        window.location.href = webringHome;
+      }
+    }
   } else if (value == 'test') {
       console.log('test');
   } else {
