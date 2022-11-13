@@ -2,6 +2,14 @@
     "webringSites": [
         {
             "siteOwner": "Graycot",
+            "siteName": "Loop Ring Home",
+            "siteURL": "https://loop.graycot.dev/",
+            "siteTags": "loopring, homepage, webring",
+            "siteShortDescription": "This homepage of the LoopRing Webring!",
+            "siteLongDescription": "This homepage of the LoopRing Webring!"
+        },
+        {
+            "siteOwner": "Graycot",
             "siteName": "Gray Cafe",
             "siteURL": "https://graystea.neocities.org/",
             "siteTags": "Relax, Chat, Explore",
