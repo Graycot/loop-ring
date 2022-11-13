@@ -1,0 +1,10 @@
+{
+    "webringInfo": [
+        {
+            "webringName": "Loop Ring",
+            "webringURL": "https://loop.graycot.dev/webring.html",
+            "webringHome": "https://loop.graycot.dev/index.html",
+            "webringMemberList": "https://loop.graycot.dev/member-list.html"
+        }
+    ]
+}
