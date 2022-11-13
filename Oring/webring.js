@@ -49,7 +49,7 @@ function sites(data) {
       let nextIndex = (referrerIndex+1 >= data.webringSites.length) ? 0 : referrerIndex+1;
       let nextSiteURL = data.webringSites[nextIndex].siteURL;
       window.location.href = nextSiteURL;
-  } else if (value == 'list' || 'home') {
+  } else if (value == 'list' || value == 'home') {
     // get webring data
     fetch("./webring.json")
     .then(response => {
