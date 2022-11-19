@@ -2,7 +2,6 @@
     "webringInfo": [
         {
             "webringName": "Loop Ring",
-            "webringURL": "https://loop.graycot.dev/webring.html",
             "webringHome": "https://docs.graycot.dev/s/MFowZsw_F#",
             "webringMemberList": "https://loop.graycot.dev/member-list.html"
         }
