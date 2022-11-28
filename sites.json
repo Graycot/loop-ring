@@ -73,12 +73,12 @@
             "siteLongDescription": "123456789"
         },
         {
-            "siteOwner": "John Lins",
-            "siteName": "Forever's home",
-            "siteURL": "https://www.johnlins.com/",
-            "siteTags": "1, 2, 3",
-            "siteShortDescription": "123",
-            "siteLongDescription": "123456789"
+            "siteOwner": "foreverliketh.is",
+            "siteName": "foreverliketh.is",
+            "siteURL": "https://foreverliketh.is/",
+            "siteTags": "life, psychology, journal",
+            "siteShortDescription": "A Digital Garden",
+            "siteLongDescription": "Who are we, who have been so blessed to share our stories like this? To speak across centuries?"
         }
     ]
 }
