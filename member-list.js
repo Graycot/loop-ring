@@ -1,4 +1,7 @@
-const tag = document.getElementById('member-list');
+const header = document.getElementById('header');
+const info = document.getElementById('info');
+const tbody = document.getElementById('tbody');
+const footer = document.getElementById('footer');
 
 fetch("webring.json") // Import data from webring.json
 .then((response) => {
@@ -19,12 +22,15 @@ fetch("sites.json") // Import data from sites.json
 
 function webring(data) {
 
-    tag.insertAdjacentHTML('beforebegin', `
-    <div id="webringInfo">
-    <a id="webringName" target="_blank" href='${data.webringInfo[0].webringURL}'>${data.webringInfo[0].webringName}</a>
+    header.insertAdjacentHTML('afterbegin', `
+    <nav id="webringInfo">
+    <a id="webringName" target="_blank" href='${data.webringInfo[0].webringHome}'>${data.webringInfo[0].webringName}</a>
     <a id="webringMemberList target="_blank" href='${data.webringInfo[0].webringMemberList}'>Member list</a>
-    </div>
+    </nav>
+    <h1>Loop Ring Member List</h1>
     `);
+
+    footer.insertAdjacentHTML('beforeend', `Intrested in joining the Loop Ring? Checkout <a href="${data.webringInfo[0].webringHome}">the docs</a> and add yourself!`);
 }
 
 function sites(data) {
@@ -32,24 +38,25 @@ function sites(data) {
   let list = "";
   let i;
 
-  tag.insertAdjacentHTML('afterbegin', `
+  info.insertAdjacentHTML('afterbegin', `
   <h2 id="memberCount">Member Count: ${data.webringSites.length}</h2>
   `);
 
 for (i = 0; i < data.webringSites.length; i++) {
     list += `
-    <div class="webringMember">
-    <ol>
-    <li id="siteOwner">${data.webringSites[i].siteOwner}</li>
-    <li id="siteName"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteName.replace(regex, "")}</a></li>
-    <li id="siteURL"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteURL.replace(regex, "")}</a></li>
-    <li id="siteTags">${data.webringSites[i].siteTags}</li>
-    <li id="siteShortDescription">${data.webringSites[i].siteShortDescription}</li>
-    <li id="siteLongDescription">${data.webringSites[i].siteLongDescription}</li>
-    </ol>
-    </div>
+    <tr>
+      <td class="siteOwner"><span class="label">Owner:</span><span class="data">${data.webringSites[i].siteOwner}</span></td>
+      <td class="siteName"><span class="label">Name:</span><span class="data"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteName.replace(regex, "")}</a></span></td>
+      <td class="siteURL"><span class="label">URL:</span><span class="data"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteURL.replace(regex, "")}</a></span></td>
+      <td class="siteTags"><span class="label">Tags:</span><span class="data">${data.webringSites[i].siteTags}</span></td>
+      <td class="siteShortDescription"><span class="label">Summary:</span><span class="data">${data.webringSites[i].siteShortDescription}</span></td>
+      <td class="siteLongDescription"><span class="label">Description:</span><span class="data">${data.webringSites[i].siteLongDescription}</span></td>
+    </tr>
+    <div class="gap"></div>
     `;
 }
 
-tag.insertAdjacentHTML('beforeend', `${list}`);
+tbody.insertAdjacentHTML('beforeend', `${list}`);
+
+
 }
