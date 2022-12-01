@@ -45,6 +45,7 @@ function sites(data) {
 for (i = 0; i < data.webringSites.length; i++) {
     list += `
     <tr>
+      <td class="number">${i+1}</td>
       <td class="siteOwner"><span class="label">Owner:</span><span class="data">${data.webringSites[i].siteOwner}</span></td>
       <td class="siteName"><span class="label">Name:</span><span class="data"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteName.replace(regex, "")}</a></span></td>
       <td class="siteURL"><span class="label">URL:</span><span class="data"><a target="_blank" href='${data.webringSites[i].siteURL}'>${data.webringSites[i].siteURL.replace(regex, "")}</a></span></td>
