@@ -71,6 +71,14 @@
             "siteTags": "life, psychology, journal",
             "siteShortDescription": "A Digital Garden",
             "siteLongDescription": "Who are we, who have been so blessed to share our stories like this? To speak across centuries?"
+        },
+        {
+            "siteOwner": "brisray",
+            "siteName": "Ray's Miscellany",
+            "siteURL": "https://brisray.com/",
+            "siteTags": "life, relaxe, explore",
+            "siteShortDescription": "A Miscellany",
+            "siteLongDescription": "A mscellany of things I am interested in
         }
     ]
 }
