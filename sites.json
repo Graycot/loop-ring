@@ -79,6 +79,14 @@
             "siteTags": "life, relax, explore",
             "siteShortDescription": "A Miscellany",
             "siteLongDescription": "A miscellany of things I am interested in"
+        },
+        {
+            "siteOwner": "sixeyes",
+            "siteName": "sixey.es",
+            "siteURL": "https://sixey.es/",
+            "siteTags": "experimental, sci-fi, furry",
+            "siteShortDescription": "Pile of alternate realities",
+            "siteLongDescription": "Can trespassing be a form of self-expression? Is the MIRR satellite company really as benevolent as they say? How does it sound like if you remove the erase head on cassette recorders? What if there was some sort of dog creature"
         }
     ]
 }
