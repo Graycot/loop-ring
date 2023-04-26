@@ -95,6 +95,14 @@
             "siteTags": "life, coding, music",
             "siteShortDescription": "Reviving the old web",
             "siteLongDescription": "A 16-year-old teen who is trying to overcome his struggles with procrastination and find his way in life. Despite feeling lost at times, he is driven to be productive and share his experiences with the world. With Pink Floyd as his soundtrack"
+        },
+        {
+            "siteOwner": "Mcbuzzerr",
+            "siteName": "Buzzo's Page",
+            "siteURL": "https://mcbuzzerr.neocities.org/",
+            "siteTags": "personal, coding, wip",
+            "siteShortDescription": "A small bio site with much to come",
+            "siteLongDescription": "This is a tiny website that I made for fun, I intend to add way more, but for now just look at how cool the effects are!"
         }
     ]
 }
