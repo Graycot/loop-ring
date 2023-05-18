@@ -1,4 +1,4 @@
-/* Oring v5.0. Copyleft 🄯 ALL WRONGS RESERVED 🄯 Gray (g@graycot.dev) (https://graycot.dev/).
+/* Oring v5.0. Copyleft 🄯 ALL WRONGS RESERVED 🄯 Gray (https://loop.graycot.dev/).
 
 Oring is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (GPLv3+) as published by
