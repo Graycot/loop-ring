@@ -111,6 +111,14 @@
             "siteTags": "personal, coding, wip",
             "siteShortDescription": "A small bio site with much to come",
             "siteLongDescription": "This is a tiny website that I made for fun, I intend to add way more, but for now just look at how cool the effects are!"
+        },
+        { 
+            "siteOwner": "Daryl Sun",
+            "siteName": "Daryl Sun's Journal",
+            "siteURL": "https://blog.darylsun.page",
+            "siteTags": "personal, weekly notes, general",
+            "siteShortDescription": "An online diary of a lady's misadventures in two worlds",
+            "siteLongDescription": ""
         }
     ]
 }
