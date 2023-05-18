@@ -103,6 +103,14 @@
             "siteTags": "selfhost, privacy, matrix",
             "siteShortDescription": "Welcome to the abyss",
             "siteLongDescription": "We choose to go to the moon ... not because they are easy, but because they are hard..."
+        },
+        { 
+            "siteOwner": "Mcbuzzerr",
+            "siteName": "Buzzo's Page",
+            "siteURL": "https://mcbuzzerr.neocities.org/AboutMe",
+            "siteTags": "personal, coding, wip",
+            "siteShortDescription": "A small bio site with much to come",
+            "siteLongDescription": "This is a tiny website that I made for fun, I intend to add way more, but for now just look at how cool the effects are!"
         }
     ]
 }
