@@ -8,13 +8,14 @@
 
 *This explaination was borrowed from [Wikipedia](https://en.wikipedia.org/wiki/Webring)*
 
-![](https://docs.graycot.dev/uploads/3a175640-0dcd-4483-ba47-4aaa5b8f863f.png)
+![](https://github.com/Graycot/loop-ring/assets/72952069/f15b0d3a-b9c9-4d92-abb3-c6eae655a1db)
+
 
 *This graphic was borrowed from [WebringWorld](http://www.webringworld.org/)*
 
 ## What is the Loop Ring?
 
-Loop Ring is a webring started by Gray, and is the original code behind [Oring](https://docs.graycot.dev/s/_t1vKY7M-#), the open source webring template. The purpose of Loop Ring is to build a community of netizens across the world. Everyone is welcome to join the Loop Ring as long as their website is genuine and sincere. We seek members who Design, Create, Educate, and Express themselves. If you think that you fall into any of those categories, you are welcome here.
+The Loop Ring is a webring and the upstream code powering [Oring](https://github.com/Graycot/Oring), the open source webring template. The purpose of Loop Ring is to build a community of netizens across the world. Everyone is welcome to join the Loop Ring as long as their website is genuine and sincere. We seek members who Design, Create, Educate, and Express themselves. If you think that you fall into any of those categories, you are welcome here.
 
 #### Sites will not be allowed to participate if they contain any of the following:
 
@@ -29,7 +30,7 @@ Loop Ring is a webring started by Gray, and is the original code behind [Oring](
 
 # Join the Loop Ring
 
-![](https://docs.graycot.dev/uploads/4b35b38c-55c6-4abc-9985-75640b3c29d0.png)
+![](https://github.com/Graycot/loop-ring/assets/72952069/68cb11ed-05b7-4f4f-a909-25540ecc7257)
 
 ## Add the webring code
 
@@ -70,31 +71,21 @@ The **prev** and **next** links will redirect the visitor to a random membersite
 
 
 You can customize the HTML and CSS to make the widget fit your style.
-:::success
-**Required links:**
+
+  #### Required links:
 * `<a href="https://loop.graycot.dev/webring.html?action=prev"></a>`
 * `<a href="https://loop.graycot.dev/webring.html?action=home"></a>`
 * `<a href="https://loop.graycot.dev/webring.html?action=next"></a>`
-:::
-:::info
-**Optional links:**
+
+  #### Optional links:
 * `<a href="https://loop.graycot.dev/webring.html?action=list"></a> `
 * `<a href="https://loop.graycot.dev/webring.html?action=rand"></a> `
-:::
-
 
 ---
 
 ## Submit your website to the Loop Ring:
 
-### Option 1:  
-
-Add yourself to the LoopRing JSON index by making a pull request on [github](https://github.com/Graycot/loop-ring/blob/master/sites.json)
-
-### Option 2: 
-
-[Contact Graycot](https://docs.graycot.dev/s/ZI5MEUTej#) and DM him the info listed below.
-    
+Add yourself to the LoopRing by making a pull request at [github](https://github.com/Graycot/loop-ring/blob/master/sites.json). Include the following data:    
     
 ```
 1. Site Owner:
@@ -105,24 +96,18 @@ Add yourself to the LoopRing JSON index by making a pull request on [github](htt
 6. Long Site Description (500 Characters or less):
 ```
     
-#### Example membersite info:
+#### Example membersite JSON data:
     
 ```
-Hey Graycot, I would like to join the Loop Ring. 
-I have already added the webring code to my website, here is my membersite info.
-    
-1. Graycot
-2. Gray's Tea
-3. https://graystea.neocities.org/
-4. Relax, Chat, Explore
-5. Sit back, relax, and admire the beauty of the internet
-6. Hi! I'm Graycot, and this is my little corner of the internet.
-    Gray's tea was the first website I ever built, and it inspired me to pursue
-    web developement as a passion, and now a career. I love creating beautiful
-    yet function user interfaces, and its my goal to teach others how to build
-    a digital world of their own creation. Come chat at the cafe and explore
-    the wonders of the web.
+  {
+        "siteOwner": "Graycot",
+        "siteName": "Gray Cafe",
+        "siteURL": "https://graystea.neocities.org/",
+        "siteTags": "Relax, Chat, Explore",
+        "siteShortDescription": "Sit back, relax, and admire the beauty of the internet",
+        "siteLongDescription": "Hi! I'm Graycot, and this is my little corner of the internet. Gray's tea was the first website I ever built, and it inspired me to pursue web developement as a passion. I love creating beautiful yet function user interfaces, and its my goal to teach others how to build a digital world of their own creation. Come chat at the cafe and explore the wonders of the web."
+  }
 ```
 
 ## Note: 
-Approval make take a while, but i'll get around to it eventually.
+ I usually approve new member-site applications within a few days, but it sometimes takes longer. Do not despair, I will get around to it eventually.
