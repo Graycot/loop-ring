@@ -72,12 +72,12 @@ The **prev** and **next** links will redirect the visitor to a random membersite
 
 You can customize the HTML and CSS to make the widget fit your style.
 
-  #### Required links:
+#### Required links:
 * `<a href="https://loop.graycot.dev/webring.html?action=prev"></a>`
 * `<a href="https://loop.graycot.dev/webring.html?action=home"></a>`
 * `<a href="https://loop.graycot.dev/webring.html?action=next"></a>`
 
-  #### Optional links:
+#### Optional links:
 * `<a href="https://loop.graycot.dev/webring.html?action=list"></a> `
 * `<a href="https://loop.graycot.dev/webring.html?action=rand"></a> `
 
@@ -105,7 +105,7 @@ Add yourself to the LoopRing by making a pull request at [github](https://github
         "siteURL": "https://graystea.neocities.org/",
         "siteTags": "Relax, Chat, Explore",
         "siteShortDescription": "Sit back, relax, and admire the beauty of the internet",
-        "siteLongDescription": "Hi! I'm Graycot, and this is my little corner of the internet. Gray's tea was the first website I ever built, and it inspired me to pursue web developement as a passion. I love creating beautiful yet function user interfaces, and its my goal to teach others how to build a digital world of their own creation. Come chat at the cafe and explore the wonders of the web."
+        "siteLongDescription": "Hi! I'm Graycot, and this is my little corner of the internet. Gray's tea was the first website I ever built, and it inspired me to pursue web developement as a passion. I love creating beautiful and functional websites, and its my goal to teach others how to build a digital world of their own creation. Come chat at the cafe and explore the wonders of the web."
   }
 ```
 
