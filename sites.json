@@ -119,6 +119,14 @@
             "siteTags": "personal, weekly notes, general",
             "siteShortDescription": "An online diary of a lady's misadventures in two worlds",
             "siteLongDescription": "My name is Daryl Sun, and this is my hopefully-regular log of my triumphs and failures. Every week, I write about what I've seen, heard, and done during the past seven days."
+        },
+         { 
+            "siteOwner": "lime360",
+            "siteName": "lime360's website",
+            "siteURL": "https://lime360.neocities.org",
+            "siteTags": "personal, creative web, general",
+            "siteShortDescription": "uhhhhhh",
+            "siteLongDescription": "why do i need a long description? anyways hi my name is lime and i made this site as a tribute of web 1.0 in modern way."
         }
     ]
 }
