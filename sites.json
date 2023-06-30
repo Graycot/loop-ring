@@ -120,6 +120,14 @@
             "siteShortDescription": "An online diary of a lady's misadventures in two worlds",
             "siteLongDescription": "My name is Daryl Sun, and this is my hopefully-regular log of my triumphs and failures. Every week, I write about what I've seen, heard, and done during the past seven days."
         },
+        {
+            "siteOwner": "orchids",
+            "siteName": "basement community",
+            "siteURL": "https://basementcommunity.com",
+            "siteTags": "chat, forum, community",
+            "siteShortDescription": "internet forum",
+            "siteLongDescription": "old school message board where people chat about things"
+        },
         { 
             "siteOwner": "Matthew Graybosch",
             "siteName": "starbreaker.org",

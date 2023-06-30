@@ -39,12 +39,9 @@ Add the HTML anchor tags widget to your site.
 
 The webring code should be placed within the `<body>...</body>` tags of your `index.html` file.
 
-
-
-
 ### HTML:
-The HTML anchor tags widget sends the user to `https://loop.graycot.dev/webring.html?action=____` which then redirects the user according to the specific link they clicked. 
 
+The HTML anchor tags will redirect the user to `https://loop.graycot.dev/webring.html?action=____` which then redirects the user according to the specific `action`. 
 
 ```html
 <div class="LoopRingWrapper"> 
@@ -55,8 +52,6 @@ The HTML anchor tags widget sends the user to `https://loop.graycot.dev/webring.
     <a href="https://loop.graycot.dev/webring.html?action=next"> > </a>
 </div>
 ```
-
-The **prev** and **next** links will redirect the visitor to a random membersite while your site is pending membership. When you are accepted, the **prev** and **next** links will automatically redirect to the previous and next members in the Loop Ring.
 
 #### Example of the unstyled links:
 <div class="LoopRingWrapper"> 
@@ -85,7 +80,7 @@ You can customize the HTML and CSS to make the widget fit your style.
 
 ## Submit your website to the Loop Ring:
 
-Add yourself to the LoopRing by making a pull request at [github](https://github.com/Graycot/loop-ring/blob/master/sites.json). Include the following data:    
+After you hav added the webring widget to your website, the next step is to add yourself to the LoopRing member list by making a pull request at [github](https://github.com/Graycot/loop-ring/blob/master/sites.json). Include the following data:    
     
 ```
 1. Site Owner:
@@ -110,4 +105,4 @@ Add yourself to the LoopRing by making a pull request at [github](https://github
 ```
 
 ## Note: 
- I usually approve new member-site applications within a few days, but it sometimes takes longer. Do not despair, I will get around to it eventually.
+ I usually approve new pull requests within a few days, but it sometimes takes longer. Do not despair, I will reach your PR eventually. The webring widget's **prev** and **next** links will redirect the visitor to a random membersite while your PR is pending. When you are accepted, the **prev** and **next** links will automatically redirect to the previous and next members in the Loop Ring.
