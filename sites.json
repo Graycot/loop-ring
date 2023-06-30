@@ -120,8 +120,8 @@
             "siteShortDescription": "An online diary of a lady's misadventures in two worlds",
             "siteLongDescription": "My name is Daryl Sun, and this is my hopefully-regular log of my triumphs and failures. Every week, I write about what I've seen, heard, and done during the past seven days."
         },
-        {
-            "siteOwner": "orchids",
+        {    
+          "siteOwner": "orchids",
             "siteName": "basement community",
             "siteURL": "https://basementcommunity.com",
             "siteTags": "chat, forum, community",
@@ -135,6 +135,14 @@
             "siteTags": "personal, scifi writing, unix",
             "siteShortDescription": "rock operatic science fantasy (and more) by Matthew Graybosch",
             "siteLongDescription": "starbreaker.org is my personal website and digital garden. I publish my fiction here, and write about whatever captures my interest, grabs my attention, or annoys me."
+        },
+        {
+           "siteOwner": "godninja69",
+           "siteName": "godninja69",
+           "siteURL": "https://gn69.neocities.org/",
+           "siteTags": "Privacy, Chat, general",
+           "siteShortDescription": "made this website to cure my urge to share everything",
+           "siteLongDescription": "I'm GodNinja69 and this is my small corner of the internet. I actually made this website to cure my urge to share everything I love and enjoy to the people. I do these stuffs in my spare time, and I have a lot of time to spare. This also sums up everything about me, lol."
         }
     ]
 }
