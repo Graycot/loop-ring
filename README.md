@@ -85,7 +85,7 @@ You can customize the HTML and CSS to make the widget fit your style.
 
 ## Submit your website to the Loop Ring:
 
-Add yourself to the LoopRing by making a pull request at [github](https://github.com/Graycot/loop-ring/blob/master/sites.json). Include the following data:    
+After you have already added the webring widget to your website, the next step is to add yourself to the LoopRing by making a pull request at [github](https://github.com/Graycot/loop-ring/blob/master/sites.json). Include the following data:    
     
 ```
 1. Site Owner:
@@ -110,4 +110,4 @@ Add yourself to the LoopRing by making a pull request at [github](https://github
 ```
 
 ## Note: 
- I usually approve new member-site applications within a few days, but it sometimes takes longer. Do not despair, I will get around to it eventually.
+ I usually approve new member-site applications within a few days, but it sometimes takes longer. Do not despair, I will reach your application eventually.
