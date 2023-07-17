@@ -36,6 +36,9 @@ function sites(data) {
       var referrerSiteURL = data.webringSites[referrerIndex].siteURL;
       var referrerSiteName = data.webringSites[referrerIndex].siteName;
       break;
+    } else {
+        // Throw Error: Referrer site not found in member list!
+        console.log("Error: Referrer site not found in member list!");
     }
   }
   // Detect whether visitor clicked the Previous, List, Home, Next, Random, or other link:
