@@ -1,5 +1,13 @@
 {
     "webringSites": [
+         {
+            "siteOwner": "Marty",
+            "siteName": "Kirkmania",
+            "siteURL": "https://kirkmania.neocities.org/#one",
+            "siteTags": "",
+            "siteShortDescription": "Space and music",
+            "siteLongDescription": "My home on the internet, and a collection of everything I'm passionate about!"
+        },
         {
             "siteOwner": "Graycot",
             "siteName": "Gray Cafe",
