@@ -152,5 +152,14 @@
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
         }
+        
+        {
+        "siteOwner": "Cartwheel",
+        "siteName": "Prolonged Cartwheel",
+        "siteURL": "https://prolongedcartwheel.neocities.org/",
+        "siteTags": "LGBT, Queer, Personal, journal",
+        "siteShortDescription": "Welcome to the brain soup! wade through the word jumble and find something of substance",
+        "siteLongDescription": "Hai hai! I am Cartwheel and this site is just a dumb little project I've had for a bit. I've always needed *somewhere* to put all of my ramblings into, but journaling in a book never really worked (you cant embed a youtube video inside a book) Consider this an extension of my brain"
+  }
     ]
 }
