@@ -73,14 +73,6 @@
             "siteLongDescription": "Who are we, who have been so blessed to share our stories like this? To speak across centuries?"
         },
         {
-            "siteOwner": "brisray",
-            "siteName": "Ray's Miscellany",
-            "siteURL": "https://brisray.com/utils/webrings.htm",
-            "siteTags": "life, relax, explore",
-            "siteShortDescription": "A Miscellany",
-            "siteLongDescription": "A miscellany of things I am interested in"
-        },
-        {
             "siteOwner": "sixeyes",
             "siteName": "sixey.es",
             "siteURL": "https://sixey.es/",
@@ -151,6 +143,14 @@
           "siteTags": "personal, shrine, blog, interactive fiction, music",
           "sitesShortDescription": "A personal blog and coding project with fun stuff.",
           "siteLongDescription": "Cajeck's Lair is a personal website, blog, art dump, writing collection, and general nostalgia trap for anything 80s, 90s, and 00s."
-	    }
+	      },
+        {
+           "siteOwner": "NonGMOTrash",
+           "siteName": "NonGMOTrash",
+           "siteURL": "https://nongmotrash.github.io/",
+           "siteTags": "personal, explore",
+           "siteShortDescription": "my center of shenanigans",
+           "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
+        }
     ]
 }
