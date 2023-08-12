@@ -151,6 +151,14 @@
            "siteTags": "personal, explore",
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
-        }
+        	},
+	{
+	   "siteOwner": "jasmine",
+           "siteName": "jasmine's journal",
+           "siteURL": "https://jasm1nii.xyz/",
+           "siteTags": "personal, art, resources",
+           "siteShortDescription": "my brain in HTML format",
+           "siteLongDescription": "this site is for developing my coding skills as a baby web dev, as well as cataloging all things interesting to me!"
+  	}
     ]
 }
