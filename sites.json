@@ -151,6 +151,12 @@
            "siteTags": "personal, explore",
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
-        }
+        },
+	{ "siteOwner" : "pngwen",
+	  "siteName": "Pngwen's Den",
+	  "siteURL": "https://pngwen.sdf.org/",
+	  "siteTags": "personal, shrine, blog, programming, electronics, math",
+	  "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
+	},		
     ]
 }
