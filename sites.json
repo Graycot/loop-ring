@@ -151,6 +151,14 @@
            "siteTags": "personal, explore",
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
+        },
+	{
+           "siteOwner": "Luke Davis",
+           "siteName": "centiskor.ch",
+           "siteURL": "https://centiskor.ch/",
+           "siteTags": "personal, fansite, Pokémon",
+           "siteShortDescription": "a Pokémon fansite",
+           "siteLongDescription": "A Pokémon fan site dedicated to Centiskorch, a dual-type Fire/Bug Pokémon from the Galar region."
         }
     ]
 }
