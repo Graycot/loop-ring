@@ -141,6 +141,14 @@
 	  "siteURL": "https://pngwen.sdf.org/",
 	  "siteTags": "personal, shrine, blog, programming, electronics, math",
 	  "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
-	}		
+	},
+	{
+        "siteOwner": "rmf",
+        "siteName": "baccyflap.com",
+        "siteURL": "https://baccyflap.com/",
+        "siteTags": "images, video, audio, diy, personal",
+        "siteShortDescription": "the last homely page east of the tubes",
+        "siteLongDescription": "A collection of potentially interesting things to look at and listen to, a trove of useful information I've gathered and instructions I've written, and a hoary mess of personal stuff such as videos, photos and old writings."
+  	} 
     ]
 }
