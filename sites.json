@@ -141,6 +141,14 @@
 	  "siteURL": "https://pngwen.sdf.org/",
 	  "siteTags": "personal, shrine, blog, programming, electronics, math",
 	  "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
-	}		
+	}'
+	  {
+        "siteOwner": "brisray",
+        "siteName": "Ray's Miscellany",
+        "siteURL": "https://brisray.com/",
+        "siteTags": "personal, explore, general",
+        "siteShortDescription": "Pages about things I'm interested in",
+        "siteLongDescription": "I write about anything I am interested in. A little bit about history, coding, running an Apache server, collecting postcards, optical illusions and more."
+  }
     ]
 }
