@@ -1,5 +1,6 @@
 {
-    "webringSites": [
+    "webringSites": 
+    [
         {
             "siteOwner": "Graycot",
             "siteName": "Gray Cafe",
@@ -127,7 +128,7 @@
           "siteTags": "personal, shrine, blog, interactive fiction, music",
           "siteShortDescription": "A personal blog and coding project with fun stuff.",
           "siteLongDescription": "Cajeck's Lair is a personal website, blog, art dump, writing collection, and general nostalgia trap for anything 80s, 90s, and 00s."
-	},
+	      },
         {
            "siteOwner": "NonGMOTrash",
            "siteName": "NonGMOTrash",
@@ -136,19 +137,27 @@
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
         },
-	{ "siteOwner" : "pngwen",
-	  "siteName": "Pngwen's Den",
-	  "siteURL": "https://pngwen.sdf.org/",
-	  "siteTags": "personal, shrine, blog, programming, electronics, math",
-	  "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
-	}'
-	  {
+      	{ "siteOwner" : "pngwen",
+	        "siteName": "Pngwen's Den",
+	        "siteURL": "https://pngwen.sdf.org/",
+	        "siteTags": "personal, shrine, blog, programming, electronics, math",
+	        "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
+	    },
+	    {
         "siteOwner": "brisray",
         "siteName": "Ray's Miscellany",
         "siteURL": "https://brisray.com/",
         "siteTags": "personal, explore, general",
         "siteShortDescription": "Pages about things I'm interested in",
         "siteLongDescription": "I write about anything I am interested in. A little bit about history, coding, running an Apache server, collecting postcards, optical illusions and more."
-  }
-    ]
+      },
+      {
+        "siteOwner": "Nicki Faulk",
+        "siteName": "Rings around the Internet",
+        "siteURL": "https://fanlistings.nickifaulk.com/webrings/",
+        "siteTags": "fansite, webrings, fanlisting, interwebs, join us",
+        "siteShortDescription": "Rings around the Internet, the WebRings Fanlisting!",
+        "siteLongDescription": "This is my fansite dedicated to these virtual cool kids clubs from way back when. Join if you had one and/or you're a fan of webrings!"
+      }
+   ]
 }
