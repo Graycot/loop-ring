@@ -149,6 +149,14 @@
        	 "siteTags": "images, video, audio, diy, personal",
        	 "siteShortDescription": "the last homely page east of the tubes",
        	 "siteLongDescription": "A collection of potentially interesting things to look at and listen to, a trove of useful information I've gathered and instructions I've written, and a hoary mess of personal stuff such as videos, photos and old writings."
-  	} 
+  	},
+        {
+           "siteOwner": "🤠",
+           "siteName": "Character Selection",
+           "siteURL": "https://emojicons.glitch.me/",
+           "siteTags": "emoji, favicon, generator, emojicon, SVG, multilingual",
+           "siteShortDescription": "Favicon generator",
+           "siteLongDescription": "Multilingual site favicon generator using emojis in SVG."
+        }
     ]
 }
