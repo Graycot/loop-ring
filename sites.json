@@ -64,7 +64,7 @@
             "siteShortDescription": "Pile of alternate realities",
             "siteLongDescription": "Can trespassing be a form of self-expression? Is the MIRR satellite company really as benevolent as they say? How does it sound like if you remove the erase head on cassette recorders? What if there was some sort of dog creature"
         },
-        { 
+        {
             "siteOwner": "Mcbuzzerr",
             "siteName": "Buzzo's Page",
             "siteURL": "https://mcbuzzerr.neocities.org/AboutMe",
@@ -72,7 +72,7 @@
             "siteShortDescription": "A small bio site with much to come",
             "siteLongDescription": "This is a tiny website that I made for fun, I intend to add way more, but for now just look at how cool the effects are!"
         },
-        { 
+        {
             "siteOwner": "Daryl Sun",
             "siteName": "Daryl Sun's Journal",
             "siteURL": "https://blog.darylsun.page",
@@ -80,7 +80,7 @@
             "siteShortDescription": "An online diary of a lady's misadventures in two worlds",
             "siteLongDescription": "My name is Daryl Sun, and this is my hopefully-regular log of my triumphs and failures. Every week, I write about what I've seen, heard, and done during the past seven days."
         },
-        {    
+        {
 	    "siteOwner": "orchids",
             "siteName": "basement community",
             "siteURL": "https://basementcommunity.com/links",
@@ -88,7 +88,7 @@
             "siteShortDescription": "internet forum",
             "siteLongDescription": "old school message board where people chat about things"
         },
-        { 
+        {
             "siteOwner": "Matthew Graybosch",
             "siteName": "starbreaker.org",
             "siteURL": "https://starbreaker.org",
@@ -119,7 +119,7 @@
            "siteTags": "personal, explore",
            "siteShortDescription": "my center of shenanigans",
            "siteLongDescription": "this site catalogues all of my games, projects, my blog, and has features a ton of hidden content and secrets to explore :)"
-        },  
+        },
 	{
            "siteOwner": "Luke Davis",
            "siteName": "centiskor.ch",
@@ -149,6 +149,14 @@
        	 "siteTags": "images, video, audio, diy, personal",
        	 "siteShortDescription": "the last homely page east of the tubes",
        	 "siteLongDescription": "A collection of potentially interesting things to look at and listen to, a trove of useful information I've gathered and instructions I've written, and a hoary mess of personal stuff such as videos, photos and old writings."
-  	} 
+  	},
+        {
+            "siteOwner": "Leilukin",
+            "siteName": "Leilukin's Hub",
+            "siteURL": "https://leilukin.com/",
+            "siteTags": "personal, LGBTQ+",
+            "siteShortDescription": "Personal website dedicated to queerness and various interests.",
+            "siteLongDescription": "You can call me Leilukin (they/she). My personal website is a platform of my queer and autistic self-expression, cataloguing various stuff I have created and curated for various subjects that interest me."
+        }
     ]
 }
