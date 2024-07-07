@@ -134,6 +134,14 @@
 	  "siteTags": "personal, shrine, blog, programming, electronics, math",
 	  "siteLongDescription": "Welcome to my little corner of the web! Lately, I have been missing the non-corporate web,and so I thought I would join back in on the fun. I write about my software projects and a bit about my day job, which is teaching computer science at a midwestern university."
 	},
+	  {
+        "siteOwner": "Zachary Kai",
+        "siteName": "Zachary Kai",
+        "siteURL": "https://zacharykai.net/",
+        "siteTags": "personal, blog, coding",
+        "siteShortDescription": "Writer of poetic scifi, maker of (hopefully) useful things",
+        "siteLongDescription": "Hi! I'm Zachary Kai, a scifi writer, and the sole operator of the book blog Road Less Read. Also an offbeat queer, twenty-something, curiosity enthusiast, and traveller."
+  	},
         {
            "siteOwner": "Nicki Faulk",
            "siteName": "Rings around the Internet",
