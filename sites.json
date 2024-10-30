@@ -149,6 +149,14 @@
        	 "siteTags": "images, video, audio, diy, personal",
        	 "siteShortDescription": "the last homely page east of the tubes",
        	 "siteLongDescription": "A collection of potentially interesting things to look at and listen to, a trove of useful information I've gathered and instructions I've written, and a hoary mess of personal stuff such as videos, photos and old writings."
-  	} 
+  	},
+	{
+          "siteOwner": "~hedy",
+          "siteName": "~hedy's home",
+          "siteURL": "https://home.hedy.dev/",
+          "siteTags": "personal, blog",
+          "siteShortDescription": "~hedy's little corner of the internet",
+          "siteLongDescription": "Hi, I'm ~hedy! I like languages and terminals. I write about topics that interests me in my blog."
+  	}
     ]
 }
