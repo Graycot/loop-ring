@@ -149,6 +149,14 @@
        	 "siteTags": "images, video, audio, diy, personal",
        	 "siteShortDescription": "the last homely page east of the tubes",
        	 "siteLongDescription": "A collection of potentially interesting things to look at and listen to, a trove of useful information I've gathered and instructions I've written, and a hoary mess of personal stuff such as videos, photos and old writings."
-  	} 
+  	},
+		  {
+        "siteOwner": "Arthur",
+        "siteName": "What's On Arthur's Shelves?",
+        "siteURL": "https://arthurs-shelves.neocities.org/",
+        "siteTags": "Blogging, writing, fandom, science fiction, fantasy, horror, RPGs, wrestling",
+        "siteShortDescription": "Web 1.0 aesthetic, present-day content.",
+        "siteLongDescription": "A collection of links pointing to my various blogs and other places on the web, and maybe more later on."
+  }
     ]
 }
